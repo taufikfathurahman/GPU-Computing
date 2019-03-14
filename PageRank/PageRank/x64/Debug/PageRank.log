@@ -1,0 +1,39 @@
+﻿  
+  C:\CUDA\GPU Page Rank\PageRank\PageRank>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\CUDA\GPU Page Rank\PageRank\PageRank\kernel.cu" -clean 
+  kernel.cu
+  Compiling CUDA source file kernel.cu...
+  
+  C:\CUDA\GPU Page Rank\PageRank\PageRank>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\CUDA\GPU Page Rank\PageRank\PageRank\kernel.cu" 
+  kernel.cu
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(141): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(142): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(146): warning C4018: '<': signed/unsigned mismatch
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(152): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(156): warning C4018: '<': signed/unsigned mismatch
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(164): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(165): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(167): warning C4018: '<': signed/unsigned mismatch
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(168): warning C4018: '<': signed/unsigned mismatch
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(178): warning C4018: '<': signed/unsigned mismatch
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(179): warning C4018: '<': signed/unsigned mismatch
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(190): warning C4018: '<': signed/unsigned mismatch
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(191): warning C4018: '<': signed/unsigned mismatch
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(198): warning C4018: '<': signed/unsigned mismatch
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(200): warning C4018: '<': signed/unsigned mismatch
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(210): warning C4018: '<': signed/unsigned mismatch
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(231): warning C4018: '<': signed/unsigned mismatch
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(249): warning C4018: '<': signed/unsigned mismatch
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(264): warning C4018: '<': signed/unsigned mismatch
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(268): warning C4018: '<': signed/unsigned mismatch
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(290): warning C4018: '<': signed/unsigned mismatch
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(297): warning C4018: '<': signed/unsigned mismatch
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(325): warning C4018: '<': signed/unsigned mismatch
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(331): warning C4018: '<': signed/unsigned mismatch
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(349): warning C4018: '<': signed/unsigned mismatch
+C:/CUDA/GPU Page Rank/PageRank/PageRank/kernel.cu(371): warning C4018: '<': signed/unsigned mismatch
+  PageRank.vcxproj -> C:\CUDA\GPU Page Rank\PageRank\x64\Debug\PageRank.exe
+  PageRank.vcxproj -> C:\CUDA\GPU Page Rank\PageRank\x64\Debug\PageRank.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart*.dll" "C:\CUDA\GPU Page Rank\PageRank\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart32_91.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart64_91.dll
+          2 file(s) copied.
